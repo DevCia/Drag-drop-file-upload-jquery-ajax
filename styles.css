@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEE;
+}
+
+
+.upload-content{
+    width: 500px;
+    height: 150px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-content:hover{
+    cursor: pointer;
+}
+
+.upload-content-title{
+    font-weight: bold;
+    color: #010101;
+}
+
+#file{
+    display: none;
+}
