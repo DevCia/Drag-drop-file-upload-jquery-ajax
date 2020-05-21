@@ -63,7 +63,7 @@ $("#file").change(function () {
 function upload(formData) {
 
     $.ajax({
-        url: "url.php",
+        url: "upload.php",
         type: "POST",
         data: formData,
         contentType: false,
